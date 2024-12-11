@@ -36,8 +36,8 @@ A PNG image of the histogram is generated using [Gnuplot](http://www.gnuplot.inf
 
 ## Requirements
 
-- **LLVM and Clang**: Version 6.0 or higher of LLVM/Clang is required to work with the LLVM pass framework.
-- **Gnuplot**: Required for generating the histogram image. You can install it on Linux via your package manager.
+- **LLVM and Clang**: Version 10.0 or higher of LLVM/Clang is required, as the new pass manager infrastructure is utilized in this project. Ensure that your tools are built and configured for this version or newer.
+- **Gnuplot**: Required for generating the histogram image. The `gnuplot-nox` package is suitable, and the script utilizes the `pngcairo` terminal for output.
 - **Linux or WSL (Windows Subsystem for Linux)**: The scripts are designed for Linux environments. If you're on Windows, use WSL.
 
 ---
